@@ -1,5 +1,9 @@
 main > .container {
-    padding: 70px 15px 20px;
+    padding: 100px 15px 20px;
+}
+
+.body-content {
+    /* margin-top: 20px; */
 }
 
 .footer {
@@ -89,17 +93,21 @@ a.desc:after {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1110px;
+        max-width: 1140px;
     }
 }
 
-/*
+
 @media (min-width: 992px) {
-    .container {
+    /* .container {
         max-width: 960px;
+    } */
+    .slider {
+        width: 700px;
+	    height: 400px;
     }
 }
-
+/*
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
