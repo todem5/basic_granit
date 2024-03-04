@@ -44,9 +44,10 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Каталог', 'url' => ['/site/catalog']],
-            ['label' => 'Материалы', 'url' => ['/site/material']],
             ['label' => 'О компании', 'url' => ['/site/about']],
+            ['label' => 'Каталог', 'url' => ['/site/catalog']],
+            ['label' => 'Доставка', 'url' => ['/site/delivery']],
+            ['label' => 'Оплата', 'url' => ['/site/payment']],
             ['label' => 'Контакты', 'url' => ['/site/contact']],
             /* Логин
             Yii::$app->user->isGuest
@@ -60,7 +61,6 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     . Html::endForm()
                     . '</li>'
                     */
-            
         ]
     ]);
     echo Nav::widget([

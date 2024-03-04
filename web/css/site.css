@@ -119,3 +119,22 @@ a.desc:after {
         max-width: 540px;
     }
 }*/
+
+/* index  */
+
+.row-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.row-item__img {
+    min-width: 200px;
+    
+    flex: 0 1 auto;
+}
+
+.row-item__describe {
+    flex: 1 0 auto;
+}

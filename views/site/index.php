@@ -3,6 +3,7 @@
 /** @var yii\web\View $this */
 
 $this->title = 'ГранитПро';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-index">
 
@@ -23,43 +24,28 @@ $this->title = 'ГранитПро';
         </div>
         <div class="row">
             <h2>Категории товаров</h2>
-            <div class="col-lg-12 mb-10">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+            <div class="d-flex flex-row justify-content-center">
+                
+                <div class="p-2 flex-grow-1">
+                    <p><a class="btn btn-outline-secondary" href="<?=Yii::$app->urlManager->createUrl(["site/catalog"]) ?>" class="big-button">Каталог товаров</a></p>
+                </div>
+                
             </div>
+            
             <div>
-            <h2>Преимущества</h2>
+                <h2>О компании</h2>
             </div>
-            <div class="col-lg-12 mb-10">
-                <h2>Heading</h2>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="p-2 flex-shrink-1 w-446">
+                    <img src="<?= Yii::$app->request->baseUrl . '/img/base1.png' ?>" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="p-2 flex-grow-1">
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div>
-            <h2>О нас</h2>
-            </div>
-            <div class="col-lg-4 mb-3">
-                <img class="img-responsive" src="<? echo Url::to('@web/img/base1.png')?>"></img>
-            </div>
-            <div class="col-lg-8 mb-7">
-
-                <p>С 2002 года наша компания занимается оптовой поставкой гранитных памятников производства Китая и России. ООО
-                «Аркадо-Гранит Новосибирск» предлагает качественный камень по выгодной цене. Приобретая готовые формы, Вы экономите
-                время, сокращаете свои производственные расходы и риски, освобождаетесь от необходимости контроля производственного
-                процесса.</p>
-
-                <p><a class="btn btn-info" href="<?= Url::toRoute(['site/contact']) >">О компании &raquo;</a></p>
+                    <p>С 2002 года компания занимается оптовой поставкой гранитных памятников производства Китая и России. 
+                        ООО «ГранитПро» предлагает качественный камень по выгодной цене. Приобретая готовые формы, Вы экономите время, </p>
+                    <p><a class="btn btn-outline-secondary" href="<?=Yii::$app->urlManager->createUrl(["site/about"]) ?>" class="big-button">Подробнее</a></p>
+                </div>
+                
             </div>
         </div>
 

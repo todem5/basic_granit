@@ -2,8 +2,8 @@
 
 /** @var yii\web\View $this */
 
-$this->title . ' - Каталог';
-//$this->breadcrumbs = [
+$this->title . 'Каталог';
+$this->params['breadcrumbs'][] = $this->title;
 //    'Каталог'
 //];
 

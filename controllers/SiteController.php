@@ -117,13 +117,33 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays about page.
+     * Displays Catalogs page.
      *
      * @return string
      */
     public function actionCatalog()
     {
         return $this->render('catalog');
+    }
+
+    /**
+     * Displays Delivery page.
+     *
+     * @return string
+     */
+    public function actionDelivery()
+    {
+        return $this->render('delivery');
+    }
+
+    /**
+     * Displays Payments page.
+     *
+     * @return string
+     */
+    public function actionPayment()
+    {
+        return $this->render('payment');
     }
 
     /**
