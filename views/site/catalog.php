@@ -2,20 +2,24 @@
 
 /** @var yii\web\View $this */
 
+
+
+
 $this->title . 'Каталог';
 $this->params['breadcrumbs'][] = $this->title;
-//    'Каталог'
-//];
 
-$this->menu = [
-    [
-        'label' => '1 вид',
-        'url' => ['terminal/student&form=1'],
-        'visible' => true,
+?>
+<code><?php  __FILE__ ?></code>
+<?php
+echo Menu::widget([
+    'items' => [
+        ['label' => 'Главная', 'url' => ['site/index']],
+        ['label' => 'О компании', 'url' => ['site/about']],
+        ['label' => 'Услуги', 'url' => ['site/services']],
+        ['label' => 'Контакты', 'url' => ['site/contacts']],
     ],
-    [
-        'label' => '2 вид',
-        'url' => ['hostelContract/student'],
-        'visible' => true,
-    ]
-];
+    'activeCssClass'=>'active',
+    'firstItemCssClass'=>'fist',
+    'lastItemCssClass' =>'last',
+]);
+?>
