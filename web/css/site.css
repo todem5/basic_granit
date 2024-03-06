@@ -144,3 +144,25 @@ a.desc:after {
 .left-menu {
     margin: 10px;
 }
+
+/*     */
+
+.site-about-title {
+    margin: 10px 100px;
+}
+
+.site-about-describe {
+    margin: 10px 100px;
+}
+
+.site-delivery-title {
+    margin: 10px 100px;
+}
+
+.site-payment-title {
+    margin: 10px 100px;
+}
+
+.site-payment-describe {
+    margin: 10px 100px;
+}

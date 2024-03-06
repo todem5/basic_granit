@@ -15,14 +15,14 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="body-content">
 
         <div class="row">
-            <h2>Фотогалерея</h2>
+            <h2></h2>
             <div class="bodygrid">
             <div class="slider">
-	            <div class="box box-1" style="--img: url(/img/img1.png);" data-text="Одинарный 1"></div>
-	            <div class="box box-2" style="--img: url(/img/img2.png);" data-text="Одинарный 2"></div>
-	            <div class="box box-3" style="--img: url(/img/img3.png);" data-text="Семейный 1"></div>
-	            <div class="box box-4" style="--img: url(/img/img4.png);" data-text="Семейный 4"></div>
-	            <div class="box box-5" style="--img: url(/img/img5.png);" data-text="Семейный 5"></div>
+	            <div class="box box-1" style="--img: url(/img/img1.jpg);" data-text="Одинарный 1"></div>
+	            <div class="box box-2" style="--img: url(/img/img2.jpg);" data-text="Одинарный 2"></div>
+	            <div class="box box-3" style="--img: url(/img/img3.jpg);" data-text="Одинарный 1"></div>
+	            <div class="box box-4" style="--img: url(/img/img4.jpg);" data-text="Одинарный 4"></div>
+	            <div class="box box-5" style="--img: url(/img/img5.jpg);" data-text="Одинарный 5"></div>
             </div>
             </div>
         </div>
