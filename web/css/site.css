@@ -138,3 +138,9 @@ a.desc:after {
 .row-item__describe {
     flex: 1 0 auto;
 }
+
+/*       */
+
+.left-menu {
+    margin: 10px;
+}

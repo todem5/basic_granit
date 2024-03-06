@@ -1,8 +1,12 @@
 <?php
 
 /** @var yii\web\View $this */
-
+/** @var yii\ */
 $this->title = 'ГранитПро';
+// echo Breadcrumbs::widget([
+    // 'homeLink' => ['label' => 'Главная', 'url' => '/'],
+  //  'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+//]) 
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-index">
