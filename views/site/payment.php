@@ -13,8 +13,6 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="site-payment-describe">
         <p>
-        
-
         <ul>
             <li> Наличный расчет</li>
             <li> Безналичный расчет</li>
