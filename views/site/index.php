@@ -22,13 +22,16 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/img/img1.jpg" class="d-block w-400" alt="">
+                        <img src="/img/slider_0.jpg" class="d-block w-1000" alt="">
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/img2.jpg" class="d-block w-400" alt="">
+                        <img src="/img/slider_1.jpg" class="d-block w-1000" alt="">
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/img3.jpg" class="d-block w-400" alt="">
+                        <img src="/img/slider_2.jpg" class="d-block w-1000" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/slider_3.jpg" class="d-block w-1000" alt="">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myIndiCarousel" data-bs-slide="prev">
