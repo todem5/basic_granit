@@ -14,8 +14,21 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class="body-content">
         <div class="row">
-            <div id="slider" class="image-slider">
-                
+            <h2>Виды гранита: </h2>
+            <div class="slider">
+
+                <div class="image">
+                    <div class="arrow left-arrow">
+                        <div class="short"></div>
+                        <div class="med"></div>
+                        <div class="long"></div>
+                    </div>
+                    <div class="arrow right-arrow">
+                        <div class="short"></div>
+                        <div class="med"></div>
+                        <div class="long"></div>
+                    </div>
+                </div>
             </div>
         </div>
 
