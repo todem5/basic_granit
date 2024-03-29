@@ -118,13 +118,14 @@ a.desc:after {
     }
 
 }
-/*
-@media (min-width: 768px) {
+/* меню нижнее */
+
+@media (min-width: 769px) {
     .container {
         max-width: 720px;
     }
 }
-
+/*
 @media (min-width: 576px) {
     .container {
         max-width: 540px;

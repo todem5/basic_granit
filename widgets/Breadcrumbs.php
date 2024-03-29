@@ -16,7 +16,7 @@ class Breadcrumbs extends \yii\bootstrap5\Widget
 	public $homeLabel = 'Main';
 	public $homeUrl = ['/'];
 	public $showActiveItemUrl = false;
-	public $hideIfSingleItem = true;
+	public $hideIfSingleItem = true;588
 	public $microdata = false;
 	public $items = [];
 

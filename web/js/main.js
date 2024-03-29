@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* js for slider */
-
+/* slider 2
 let slider = document.querySelector('.slider .list');
 let items = document.querySelectorAll('.slider .list .item');
 let next = document.getElementById('next');
@@ -49,8 +49,10 @@ dots.forEach((li, key) => {
 window.onresize = function(event) {
     reloadSlider();
 };
+*/
 
-/*
+
+/* slider 1
 const images = [
     ['/img/slider_0.jpg', ''],
     ['/img/slider_1.jpg', ''], 

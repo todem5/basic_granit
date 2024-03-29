@@ -87,6 +87,19 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     ]);
     NavBar::end();
     ?>
+
+    <div class="menu-bottom">
+        <div class="container">
+            <a href="#"> </a>
+            <div class="menu-bottom__hamburger">
+
+            </div>
+            <div class="menu-bottom__catalog">
+
+            </div>
+        </div>
+    </div>
+
     </header>
 
     <main id="main" class="flex-shrink-1" role="main">
