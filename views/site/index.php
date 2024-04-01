@@ -16,11 +16,32 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="row">
             <h2>Виды гранита: </h2>
             <div class="slider">
-                
-                    <div class="item">
-                        <img src="/img/slider_0.jpg" alt="">
+                <div class="slider__wrap">
+                    <div class="slider__item">
+                        <div class="slider__img">
+                            <img src="/img/stone1.png" class= "img__slider" alt="Responsive image">
+                        </div>
+                        <div class="slider__text">
+                            <p>Гранит Шанси</p>
+                        </div>
                     </div>
-            
+                    <div class="slider__item">
+                        <div class="slider__img">
+                            <img src="/img/stone2.png" class= "img__slider" alt="Responsive image">
+                        </div>
+                        <div class="slider__text">
+                            <p>Мрамор Уфалей</p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__img">
+                            <img src="/img/stone3.png" class= "img__slider" alt="Responsive image">
+                        </div>
+                        <div class="slider__text">
+                            Гранит Карелия
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--
             <div class="slider">
@@ -63,11 +84,12 @@ $this->params['breadcrumbs'][] = $this->title;
             <div>
                 <h2>О компании</h2>
             </div>
-            <div class="d-flex flex-row justify-content-center">
-                <div class="p-2 flex-shrink-1">
-                    <img src="<?= Yii::$app->request->baseUrl . '/img/base2.png' ?>"  alt="Responsive image">
+
+            <div class="about">
+                <div class="about__img">
+                    <img src="<?= Yii::$app->request->baseUrl . '/img/base3.png' ?>" class= "img__office" alt="Responsive image" >
                 </div>
-                <div class="p-2 flex-grow-1">
+                <div class="about__text">
 
                     <p>С 2002 года компания занимается оптовой поставкой гранитных памятников производства Китая и России.
                         ООО «ГранитПро» предлагает качественный камень по выгодной цене. Приобретая готовые формы, Вы экономите время, </p>

@@ -2,8 +2,9 @@
 
 /** @var yii\web\View $this */
 
+namespace app\models;
 use yii\helpers\Html;
-
+use yii\db\ActiveRecord;
 
 $this->title . 'Каталог';
 $this->params['breadcrumbs'][] = $this->title;
@@ -12,6 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
 <?php
+/*
 echo \yii\widgets\Menu::widget([
     'items' => [
         ['label' => 'Главная', 'url' => ['site/index']],
@@ -20,5 +22,6 @@ echo \yii\widgets\Menu::widget([
     ],
     'activeCssClass'=>'left-menu',
 ]);
+*/
 ?>
 </div>
