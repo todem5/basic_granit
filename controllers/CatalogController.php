@@ -39,24 +39,23 @@ class CatalogController extends Controller
     }
 
     /**
-     * {@inheritdoc}
+     
      */
-    public function actions()
-    {
-        return [
-            'error' => [
-                'class' => 'yii\web\ErrorAction',
-            ],
-            'captcha' => [
-                'class' => 'yii\captcha\CaptchaAction',
-                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
-            ],
-        ];
+   
+
+    public function actionPdf() {
+        $filepdf = 'catalogs_v1.pdf';
+    
+        // This will need to be the path relative to the root of your app.
+        $filePath = '/views/pdf';
+        // Might need to change '@app' for another alias
+        $completePath = Yii::getAlias('@app'.$filePath.'/'.$filepdf);
+    
+        return Yii::$app->response->sendFile($completePath, $filepdf);
     }
 
     /**
-     * Displays homepage.
-     *
+     * Displays homepage catalog
      * @return string
      */
     public function actionIndex()

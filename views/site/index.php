@@ -74,7 +74,6 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="row">
             <h2>Категории товаров</h2>
             <div class="d-flex flex-row justify-content-center">
-
                 <div class="p-2 flex-grow-1">
                     <p><a class="btn btn-outline-secondary" href="<?= Yii::$app->urlManager->createUrl(["site/catalog"]) ?>" class="big-button">Каталог товаров</a></p>
                 </div>
