@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
             
                 <div class="additional__item additional-phones">
                     <div>
-                        <h4>Оптовый отдел:</h4><h5>Телефоны:</h5>+7&nbsp;913&nbsp;142-34-16<br>+7&nbsp;983&nbsp;523-59-52<h5>Электронная почта:</h5>granitproomsk@yandex.ru<h5>Адрес:</h5>644103, г.&nbsp;Омск, ул.&nbsp;Седова, 55в к.1<h5>Режим работы:</h5>Пн-пт с&nbsp;9.00&nbsp;до&nbsp;17.00<br>Сб-вс выходные
+                        <h4>Оптовый отдел:</h4><h5>Телефоны:</h5>+7&nbsp;913&nbsp;147-72-50<br>+7&nbsp;995&nbsp;604-11-02<h5>Электронная почта:</h5>granitproomsk@yandex.ru<h5>Адрес:</h5>644103, г.&nbsp;Омск, ул.&nbsp;Седова, 55в к.1<h5>Режим работы:</h5>Пн-пт с&nbsp;9.00&nbsp;до&nbsp;17.00<br>Сб-вс выходные
                     </div>
                 </div>
                 <div class="additional__item additional-emails">

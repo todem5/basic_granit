@@ -211,8 +211,9 @@ a.desc:after {
         max-width: 100%;
     }
 
-    
-
+    .container .navbar-nav {
+        flex-direction: row;
+    }
 }
 /*
 @media (max-width: 576px) {

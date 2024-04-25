@@ -86,7 +86,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <div class="about">
                 <div class="about__img">
-                    <img src="<?= Yii::$app->request->baseUrl . '/img/base3.png' ?>" class= "img__office" alt="Responsive image" >
+                    <img srcset="/img/base2_500.png 500w, /img/base2_750.png 750w, /img/base2_1000.png 1000w" src="/img/base3.png" class= "img__office" alt="Responsive image">
+
+                    <!--<img src="/img/base3.png"  class= "img__office" alt="Responsive image" >-->
                 </div>
                 <div class="about__text">
 
